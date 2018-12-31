@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section {
+    margin-top: 5vh;
+    height: 95vh;
+}
+
+#menu {
+    width: 20%;
+    height: 95vh;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 5vh;
+    left: 0;
+}
+
+#menu li  a, #menu li a:visited {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+#menu li a:hover, #menu li a:focus, #menu li a:active {
+    background-color: white;
+    color: #000;
+}
+
+main {
+    margin-top: 5vh;
+    padding-left: 20%;
+    height: 95vh;
+    width: 100%;
+    background: purple;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+#First, #Second, #Third, #Fourth {
+    width: 100%;
+    min-height: 95vh;
+    background-color: lightgreen;
+}
